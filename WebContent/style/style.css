@@ -1,1 +1,104 @@
 /* Add styles for application here */
+body {
+    height: 100%;
+    width: 100%;
+}
+header {
+    background-color: #4a5b91;
+    color: #ffffff;
+    height: 80px;
+}
+div {
+    height: 780px;
+}
+footer {
+    background-color: #adb3af;
+    height: 40px;
+}
+img {
+    height: 60px;
+    width: 60px;
+	margin-left: 10px;
+}
+label {
+	cursor: default;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 0 1em;
+}
+p {
+	margin-left: 50px;
+	font-size: 18px;
+}
+.link-color {
+	color: #050505;
+}
+.text-align {
+    margin-left: 50px;
+	margin-top: 50px;
+}
+.title-name {
+	text-align: left;
+	width: 300px;
+}
+.box-office {
+	text-align: right;
+	width: 170px;
+}
+.title-text {
+	text-align: center;
+	width: 150px;
+}
+.menu-space {
+	width: 300px;
+}
+#btn-color {
+	background-color: #4a5b91;
+	border: none;
+	color: #ffffff;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+#name-left {
+	width: 87%;
+}
+#nav-menu {
+    float: right;
+    margin-right: 40px;
+    margin-top: 30px;
+    color: #ffffff;
+}              
+#head {
+	margin-left: 20px;
+	font-size: 40px;
+}
+#center {
+	text-align: center;
+	color: #4de036;
+}
+#left {
+	text-align: left;
+}
+#text-color {
+	color: #4de036;
+}
+#al-right {
+	text-align: right;
+}
+#category {
+	width: 50%;
+}
+#text-margin{
+	margin-left: 20px;
+    bottom: 15;
+}
+#genre {
+	width: 50%;
+}
+
