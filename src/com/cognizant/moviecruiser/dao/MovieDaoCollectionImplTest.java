@@ -42,7 +42,7 @@ public class MovieDaoCollectionImplTest {
 		for (Movie x : customerList) {
 
 			System.out.printf("%-20s $%-7s %-20s %-5s   Add to Favorie \n", x.getTitle(), box.format(x.getBoxOffice()),
-					x.getGenre(),x.isHasTeaser() ? "Yes" : "No");
+					x.getGenre(), x.isHasTeaser() ? "Yes" : "No");
 		}
 
 	}

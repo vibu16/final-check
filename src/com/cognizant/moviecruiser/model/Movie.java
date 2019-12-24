@@ -112,14 +112,13 @@ public class Movie {
 				active ? "Yes" : "No", sd.format(dateOfLaunch), genre, hasTeaser ? "Yes" : "No");
 
 	}
+
 	public String favo() {
 		SimpleDateFormat sd = new SimpleDateFormat("dd/MM/yyyy");
 		NumberFormat box = NumberFormat.getInstance();
 		box.setGroupingUsed(true);
-		return String.format("%-20s $%-7s %-5s Delete ", getTitle(), box.format(getBoxOffice()),
-				getGenre());
+		return String.format("%-20s $%-7s %-5s Delete ", getTitle(), box.format(getBoxOffice()), getGenre());
 
 	}
-	
 
 }
