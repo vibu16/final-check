@@ -40,7 +40,7 @@ public class ShowMovieListAdminServlet extends HttpServlet {
 		RequestDispatcher rd = request.getRequestDispatcher("movie-list-admin.jsp");
 		rd.forward(request, response);
 		} catch(Exception ex) {
-			System.out.println(ex);
+			 ex.printStackTrace();
 		}
 	}
 
