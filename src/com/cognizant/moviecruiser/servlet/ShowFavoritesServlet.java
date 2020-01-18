@@ -12,6 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import com.cognizant.moviecruiser.dao.FavoriteDao;
 import com.cognizant.moviecruiser.dao.FavoriteDaoCollectionImpl;
+import com.cognizant.moviecruiser.dao.FavoriteDaoSqlImpl;
 import com.cognizant.moviecruiser.model.Movie;
 
 /**
@@ -36,7 +37,7 @@ public class ShowFavoritesServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		try {
-			FavoriteDao favoriteDao = new FavoriteDaoCollectionImpl();
+			FavoriteDao favoriteDao = new FavoriteDaoSqlImpl();
 			List<Movie> movieListCustomer = favoriteDao.getAllFavorite(1);
 			request.setAttribute("movieListCustomer", movieListCustomer);
 			RequestDispatcher rd = request.getRequestDispatcher("favorites.jsp");

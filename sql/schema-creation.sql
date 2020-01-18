@@ -24,7 +24,7 @@ ENGINE = InnoDB;
 CREATE TABLE IF NOT EXISTS `moviecruiser`.`movie_list` (
   `mo_id` INT NOT NULL AUTO_INCREMENT,
   `mo_title` VARCHAR(100) NULL,
-  `mo_box_office` INT(15) NULL,
+  `mo_box_office` DECIMAL(15) NULL,
   `mo_active` VARCHAR(3) NULL,
   `mo_date_of_launch` DATE NULL,
   `mo_genre` VARCHAR(45) NULL,
